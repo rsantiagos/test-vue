@@ -1,0 +1,15 @@
+{
+  "name": "test-vue",
+  "version": "1.0.0",
+  "description": "prueba de la libreria de vuejs con express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Romualdo Santiago",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
