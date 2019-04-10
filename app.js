@@ -1,7 +1,2 @@
-var app = new Vue({
-    el: "#main",
-    data:{
-        titulo: "test vue",
-        tareas: []
-    }
-})
+new Vue({ el: "#main" });
+
