@@ -1,4 +1,4 @@
-Vue.component('rightbar',{
+Vue.component('right-bar',{
     template:/*html*/`
         <div class="right-bar">
             <div class="rightbar-title">
