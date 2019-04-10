@@ -7,7 +7,7 @@ Vue.component('right-bar',{
                 </a>
                 <h5 class="m-0 text-white">Settings</h5>
             </div>
-            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 579px;"><div class="slimscroll-menu" style="overflow: hidden; width: auto; height: 579px;">
+            <div class="slimscroll-menu">
                 <!-- User box -->
                 <div class="user-box">
                     <div class="user-img">
@@ -20,19 +20,19 @@ Vue.component('right-bar',{
                 </div>
 
                 <!-- Settings -->
-                <hr class="mt-0">
+                <hr class="mt-0" />
                 <h5 class="pl-3">Basic Settings</h5>
-                <hr class="mb-0">
+                <hr class="mb-0" />
 
                 <div class="p-3">
                     <div class="checkbox checkbox-primary mb-2">
-                        <input id="Rcheckbox1" type="checkbox" checked="">
+                        <input id="Rcheckbox1" type="checkbox" checked>
                         <label for="Rcheckbox1">
                             Notifications
                         </label>
                     </div>
                     <div class="checkbox checkbox-primary mb-2">
-                        <input id="Rcheckbox2" type="checkbox" checked="">
+                        <input id="Rcheckbox2" type="checkbox" checked>
                         <label for="Rcheckbox2">
                             API Access
                         </label>
@@ -44,13 +44,13 @@ Vue.component('right-bar',{
                         </label>
                     </div>
                     <div class="checkbox checkbox-primary mb-2">
-                        <input id="Rcheckbox4" type="checkbox" checked="">
+                        <input id="Rcheckbox4" type="checkbox" checked>
                         <label for="Rcheckbox4">
                             Online Status
                         </label>
                     </div>
                     <div class="checkbox checkbox-primary mb-0">
-                        <input id="Rcheckbox5" type="checkbox" checked="">
+                        <input id="Rcheckbox5" type="checkbox" checked>
                         <label for="Rcheckbox5">
                             Auto Payout
                         </label>
@@ -58,9 +58,9 @@ Vue.component('right-bar',{
                 </div>
 
                 <!-- Timeline -->
-                <hr class="mt-0">
+                <hr class="mt-0" />
                 <h5 class="pl-3 pr-3">Messages <span class="float-right badge badge-pill badge-danger">25</span></h5>
-                <hr class="mb-0">
+                <hr class="mb-0" />
                 <div class="p-3">
                     <div class="inbox-widget">
                         <div class="inbox-item">
@@ -92,7 +92,7 @@ Vue.component('right-bar',{
                     </div> <!-- end inbox-widget -->
                 </div> <!-- end .p-3-->
 
-            </div><div class="slimScrollBar" style="background: rgb(158, 165, 171); width: 8px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 392.095px;"></div><div class="slimScrollRail" style="width: 8px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div> <!-- end slimscroll-menu-->
+            </div> <!-- end slimscroll-menu-->
         </div>
     `
 })
