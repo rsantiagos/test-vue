@@ -9,8 +9,16 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.get('/inndotnews', function(req, res) {
+  res.sendFile(path.join(__dirname + '/inndotnews.html'));
+});
+
+app.get('/login', function(req, res) {
+  res.sendFile(path.join(__dirname + '/inndotnews.html'));
+});
+
 app.use(function(req, res, next) {  
-  res.status(404).json({error: 'No se encontró el servicio, por favor verifique su ruta.'});    
+  res.status(404).sendFile(path.join(__dirname + '/inndotnews.html'));    
 });
 
 app.set('port', process.env.PORT || 3000);   
